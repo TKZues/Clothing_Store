@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/add.xml" value="0.3115" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/border_edittext.xml" value="0.325" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/button_add.xml" value="0.262" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/button_import.xml" value="0.261" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/button_search.xml" value="0.29" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/dropdown_arrow.xml" value="0.3005" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/edittext_border.xml" value="0.289" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/icon_search.xml" value="0.3085" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/import.xml" value="0.3115" />
@@ -14,15 +16,23 @@
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/li.xml" value="0.338" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/menu.xml" value="0.316" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/search_24px.xml" value="0.3115" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/sniper_border.xml" value="0.325" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/transparent_back.xml" value="0.3625" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/d.xml" value="0.3066123188405797" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/dashboard_fragment.xml" value="0.5" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/donhang_fragment.xml" value="0.20625" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/header_layout.xml" value="0.21979166666666666" />
-        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khachhang_fragment.xml" value="0.27445652173913043" />
-        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khohang_fragment.xml" value="0.2961038961038961" />
-        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_fragment.xml" value="0.27445652173913043" />
-        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/product_additem.xml" value="0.3066123188405797" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/items_sanpham.xml" value="0.2767210144927536" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khachhang_add.xml" value="0.25729166666666664" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khachhang_fragment.xml" value="0.2634730538922156" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khohang_fragment.xml" value="0.2744479495268139" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/list_khachhang.xml" value="0.25729166666666664" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/list_nhanvien.xml" value="0.20625" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_add.xml" value="0.26313405797101447" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_fragment.xml" value="0.20220588235294118" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/product_additem.xml" value="0.29721362229102166" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/reporteveryday_fragment.xml" value="0.33" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/menu/menu.xml" value="0.3625" />
       </map>
     </option>

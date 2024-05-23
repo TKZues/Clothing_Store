@@ -7,21 +7,34 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.trustsales.Data.Model.Model_sanpham;
+import com.example.trustsales.Data.MyDatabaseHelper;
+import com.example.trustsales.Fragment.Sanpham.AdapterProduct;
 import com.example.trustsales.R;
+
+import java.util.List;
 
 public class FramentKhoHang extends Fragment {
 
-
+    private MyDatabaseHelper dbHelper;
+    private AdapterProduct productAdapter;
+    private List<Model_sanpham> productList;
+    private RecyclerView recyclerView;
     @Nullable
     @Override
     public View onCreateView( LayoutInflater inflater,  ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.khohang_fragment, container, false);
+
         // Danh sách các lựa chọn
         String[] categories = {"Chọn một mục","Lựa chọn 1", "Lựa chọn 2", "Lựa chọn 3"};
 
@@ -65,6 +78,21 @@ public class FramentKhoHang extends Fragment {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, new FragmentAddProduct()).addToBackStack(null).commit();
             }
         });
+            dbHelper = new MyDatabaseHelper(getContext());
+         recyclerView = rootView.findViewById(R.id.recyclerview);
+         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        loadProducts();
         return rootView;
+
+
+    }
+    private void loadProducts() {
+        productList = dbHelper.getAllProductsList();
+        if (productList.size() > 0) {
+            productAdapter = new AdapterProduct( productList);
+            recyclerView.setAdapter(productAdapter);
+        } else {
+            Toast.makeText(getContext(), "Không có sản phẩm nào", Toast.LENGTH_SHORT).show();
+        }
     }
 }

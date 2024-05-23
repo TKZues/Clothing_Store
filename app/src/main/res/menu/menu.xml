@@ -23,6 +23,11 @@
         android:title="Khách hàng"
         />
     <item
+        android:id="@+id/nav_staff"
+        android:icon="@drawable/teamwork"
+        android:title="Nhân viên"
+        />
+    <item
         android:id="@+id/nav_warehouse"
         android:icon="@drawable/warehouse"
         android:title="Kho hàng"
@@ -36,6 +41,11 @@
         android:id="@+id/nav_report"
         android:icon="@drawable/report"
         android:title="Báo cáo"
+        />
+    <item
+        android:id="@+id/nav_incomeday"
+        android:icon="@drawable/dashboard1day"
+        android:title="Báo cáo theo ngày"
         />
 
 </menu>

@@ -2,8 +2,6 @@ package com.example.trustsales.Activity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -12,12 +10,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
-import com.example.trustsales.Fragment.FragmentAddProduct;
+import com.example.trustsales.Fragment.Donhang.FragmentOrder;
 import com.example.trustsales.Fragment.FragmentDashboard;
 import com.example.trustsales.Fragment.FragmentKhachHang;
-import com.example.trustsales.Fragment.FragmentNhanvien;
+import com.example.trustsales.Fragment.Nhanvien.FragmentNhanvien;
 import com.example.trustsales.Fragment.FramentKhoHang;
 import com.example.trustsales.R;
 import com.google.android.material.navigation.NavigationView;
@@ -70,11 +67,17 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_dashboard:
                         selectedFragment = new FragmentDashboard();
                         break;
-                    case R.id.nav_order:
+                    case R.id.nav_staff:
                         selectedFragment = new FragmentNhanvien();
                         break;
                     case R.id.nav_warehouse:
                         selectedFragment = new FramentKhoHang();
+                        break;
+                    case R.id.nav_customer:
+                        selectedFragment = new FragmentKhachHang();
+                        break;
+                    case R.id.nav_order:
+                        selectedFragment = new FragmentOrder();
                         break;
                 }
 
