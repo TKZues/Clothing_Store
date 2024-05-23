@@ -17,6 +17,7 @@
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/menu.xml" value="0.316" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/search_24px.xml" value="0.3115" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/sniper_border.xml" value="0.325" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/top_background.xml" value="0.253" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/drawable/transparent_back.xml" value="0.3625" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/d.xml" value="0.3066123188405797" />
@@ -29,10 +30,12 @@
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/khohang_fragment.xml" value="0.2744479495268139" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/list_khachhang.xml" value="0.25729166666666664" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/list_nhanvien.xml" value="0.20625" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/login_main.xml" value="0.2604166666666667" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_add.xml" value="0.26313405797101447" />
-        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_fragment.xml" value="0.20220588235294118" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/nhanvien_fragment.xml" value="0.25247148288973387" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/product_additem.xml" value="0.29721362229102166" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/layout/reporteveryday_fragment.xml" value="0.33" />
+        <entry key="..\:/Android/TrustSales/app/src/main/res/layout/screen_home.xml" value="0.259375" />
         <entry key="..\:/Android/TrustSales/app/src/main/res/menu/menu.xml" value="0.3625" />
       </map>
     </option>

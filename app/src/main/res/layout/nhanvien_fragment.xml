@@ -26,7 +26,7 @@
                 android:orientation="vertical" >
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textViewert"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Tìm kiếm"
@@ -131,7 +131,7 @@
                 android:padding="8dp">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textViewe"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Danh sách nhân viên"
@@ -141,7 +141,9 @@
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/edittext_border"
+                    android:padding="6dp">
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/ryr_staff"

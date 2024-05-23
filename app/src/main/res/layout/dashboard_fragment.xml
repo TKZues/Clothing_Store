@@ -40,7 +40,7 @@
                         android:background="#7FC1D4">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/imageViewr"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -59,7 +59,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView4"
+                            android:id="@+id/textViewt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TỔNG COMMENT"
@@ -67,7 +67,7 @@
                             android:textSize="8dp" />
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/textViewy"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7"
@@ -78,7 +78,7 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageViewu"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
                         android:layout_gravity="center"
@@ -110,7 +110,7 @@
                         android:background="#7FC1D4">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/imageViewi"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -129,7 +129,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView4"
+                            android:id="@+id/textViewo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TỔNG COMMENT"
@@ -137,7 +137,7 @@
                             android:textSize="8dp" />
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/textViewp"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7"
@@ -148,7 +148,7 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageViewd"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
                         android:layout_gravity="center"
@@ -180,7 +180,7 @@
                         android:background="#7FC1D4">
 
                         <ImageView
-                            android:id="@+id/imageView1"
+                            android:id="@+id/imageViewf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -199,7 +199,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/textViewf"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TỔNG COMMENT"
@@ -207,7 +207,7 @@
                             android:textSize="8dp" />
 
                         <TextView
-                            android:id="@+id/textView3"
+                            android:id="@+id/textViewg"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7"
@@ -218,7 +218,7 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageViews"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
                         android:layout_gravity="center"
@@ -257,7 +257,7 @@
                         android:background="#7FC1D4">
 
                         <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/imageViewh"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -276,7 +276,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/textView4"
+                            android:id="@+id/textViewj"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TỔNG COMMENT"
@@ -284,7 +284,7 @@
                             android:textSize="8dp" />
 
                         <TextView
-                            android:id="@+id/textView5"
+                            android:id="@+id/textViewk"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7"
@@ -295,7 +295,7 @@
                     </LinearLayout>
 
                     <ImageView
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageViewl"
                         android:layout_width="0dp"
                         android:layout_height="15dp"
                         android:layout_gravity="center"

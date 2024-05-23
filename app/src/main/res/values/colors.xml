@@ -15,4 +15,8 @@
     <color name="blue_600">#4E78C5</color>
     <color name="red">#FAEA1A3F</color>
 
+
+<!--    giao diện người dùng-->
+    <color name="purple_dark">#521C98</color>
+    <color name="purple_light">#A421D2</color>
 </resources>
